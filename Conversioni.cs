@@ -27,6 +27,18 @@ namespace Sis_Conv
             }
             return decimale;
         }
+        static int[] Convert_Binario_To_Decimale_Puntato(Boolean[] b)
+        {
+        }
+        static Boolean[] Convert_Decimale_Puntato_To_Binario(int[] dp)
+        {
+        }
+        static int[] Convert_Numero_Decimale_To_Decimale_Puntato(//tipo d)
+        { 
+        }
+        static int[] Convert_Numero_Decimale_To_Binario(//tipo d)
+        { 
+        }
         static void Main(string[] args)
         {
             int[] numero = new int[] { 10, 10, 10, 10 };
