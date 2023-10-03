@@ -11,11 +11,9 @@ namespace Sis_Conv
         static int Convert_Binario_To_Intero(Boolean[] b) //la conversione avviene dalla fine del vettore fino all'inizio
         {
             int decimale = 0;
-            int t = b.Length - 1;
             for (int i = 0; i < b.Length; i++)
             {
-                decimale = decimale + Convert.ToInt32(Convert.ToInt32(b[t]) * Math.Pow(2, i));
-                t--;
+                decimale = decimale + Convert.ToInt32(Convert.ToInt32(b[b.Lenght - 1 - i]) * Math.Pow(2, i));
             }
             return decimale;
         }
@@ -25,8 +23,7 @@ namespace Sis_Conv
             int t = dp.Length - 1;
             for (int i = 0; i < dp.Length; i++)
             {
-                decimale = decimale + Convert.ToInt32((dp[t] * Math.Pow(256, i)));
-                t--;
+                decimale = decimale + Convert.ToInt32((dp[dp.Lenght - 1 - i] * Math.Pow(256, i)));
             }
             return decimale;
         }
