@@ -22,7 +22,7 @@ namespace Sis_Conv
             int decimale = 0;
             for (int i = 0; i < dp.Length; i++)
             {
-                decimale = decimale + Convert.ToInt32((dp[dp.Length - 1 - i] * Math.Pow(255, i)));
+                decimale = decimale + Convert.ToInt32((dp[dp.Length - 1 - i] * Math.Pow(256, i)));
             }
             return decimale;
         }
@@ -66,8 +66,8 @@ namespace Sis_Conv
             int[] dp = new int[4];
             for(int i = 0; i < dp.Length; i++)
             {
-                dp[dp.Length - 1 - i] = (int)(decimale % 255);
-                decimale = decimale / 255;
+                dp[dp.Length - 1 - i] = (int)(decimale % 256);
+                decimale = decimale / 256;
             }
             return dp;
         }
