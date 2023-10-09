@@ -41,6 +41,7 @@ namespace Sis_Conv
                         dp[indice] = dp[indice] + Convert.ToInt32(Convert.ToInt32(bin[p]) * Math.Pow(2, p));
                     }
                     indice++;
+                    bin = "";
                 }
             }
             return dp;
