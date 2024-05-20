@@ -1,0 +1,10 @@
+C:\Users\dingy\Downloads\sistemi\sistemi\bin\Debug\sistemi.exe.config
+C:\Users\dingy\Downloads\sistemi\sistemi\bin\Debug\sistemi.exe
+C:\Users\dingy\Downloads\sistemi\sistemi\bin\Debug\sistemi.pdb
+C:\Users\dingy\Downloads\sistemi\sistemi\obj\Debug\sistemi.csproj.AssemblyReference.cache
+C:\Users\dingy\Downloads\sistemi\sistemi\obj\Debug\sistemi.Form1.resources
+C:\Users\dingy\Downloads\sistemi\sistemi\obj\Debug\sistemi.Properties.Resources.resources
+C:\Users\dingy\Downloads\sistemi\sistemi\obj\Debug\sistemi.csproj.GenerateResource.cache
+C:\Users\dingy\Downloads\sistemi\sistemi\obj\Debug\sistemi.csproj.CoreCompileInputs.cache
+C:\Users\dingy\Downloads\sistemi\sistemi\obj\Debug\sistemi.exe
+C:\Users\dingy\Downloads\sistemi\sistemi\obj\Debug\sistemi.pdb
